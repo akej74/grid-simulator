@@ -7,7 +7,7 @@ def main():
     """Simulates a Grid+ V2 unit, by listening on a serial port for incoming data
     and sending appropriate responses.
 
-    The simulator is used to the the "Grid Control" application.
+    The simulator is used to test the "Grid Control" application.
 
     Example:
     One byte "C0" received (initialize grid), respond with "21" (grid initialized)
